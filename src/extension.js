@@ -17,6 +17,9 @@ export default class extends Extension {
 
     Main.panel.addToStatusArea(this.uuid, this._panelMenuButton);
 
+    // Quick fix to GNOME 49+
+    this._panelMenuButton.clear_actions();
+
     this._panelMenuButton.connect('button-press-event', function () {
       Main.screenshotUI.open();
     });
