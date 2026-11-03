@@ -10,12 +10,12 @@ export default class extends Extension {
 
     this._panelMenuButton.add_child(
       new St.Icon({
-        icon_name: 'camera-photo-symbolic',
+        icon_name: 'applets-screenshooter-symbolic',
         style_class: 'system-status-icon',
       })
     );
 
-    Main.panel.addToStatusArea(this.uuid, this._panelMenuButton);
+    Main.panel.addToStatusArea(this.uuid, this._panelMenuButton, 1, 'right');
 
     // Quick fix to GNOME 49+
     this._panelMenuButton.clear_actions();
