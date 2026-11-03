@@ -1,7 +1,7 @@
 {
   "name": "Screenshort-cut",
   "description": "A simple shortcut button to call the native screenshot tool directly on your GNOME panel.",
-  "uuid": "screenshort-cut@pauloimon",
+  "uuid": "screenshort-cut@pauloimon-fork",
   "url": "https://github.com/pauloimon/gnome-screenshort-cut-extension",
   "shell-version": [
     "45",
@@ -9,6 +9,7 @@
     "47",
     "48",
     "49",
-    "50"
+    "50",
+    "51"
   ]
 }
